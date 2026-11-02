@@ -1,0 +1,19 @@
+.app {
+  width: min(100%, 560px);
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #e5eae4;
+  border-radius: 5px;
+  box-shadow: 0 16px 40px rgb(39 51 46 / 8%);
+}
+
+.app h1 {
+  margin: 0 0 24px;
+  font-size: 28px;
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 24px 18px;
+  }
+}

@@ -1,0 +1,16 @@
+.todo-filter-select {
+  min-height: 42px;
+  margin-bottom: 16px;
+  padding: 0 36px 0 12px;
+  border: 1px solid #dce3dc;
+  border-radius: 5px;
+  background: #fbfcfa;
+  color: #34443a;
+  font: inherit;
+  cursor: pointer;
+}
+
+.todo-filter-select:focus-visible {
+  outline: 3px solid rgb(120 145 126 / 18%);
+  border-color: #78917e;
+}

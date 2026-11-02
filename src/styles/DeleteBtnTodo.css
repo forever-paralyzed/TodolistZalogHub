@@ -1,0 +1,16 @@
+.delete-todo-button {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border: 1px solid #ecd9d4;
+  border-radius: 5px;
+  background: #fff8f6;
+  color: #9a5e52;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.delete-todo-button:hover {
+  border-color: #dfbdb5;
+  background: #fbece8;
+}

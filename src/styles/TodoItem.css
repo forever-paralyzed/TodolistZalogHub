@@ -1,0 +1,36 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 54px;
+  padding: 10px 12px;
+  border: 1px solid #e7ece7;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.todo-item__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  cursor: pointer;
+}
+
+.todo-item__label input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: #718a77;
+  cursor: pointer;
+}
+
+.todo-item__title {
+  overflow-wrap: anywhere;
+}
+
+.todo-item__title--completed {
+  color: #89948c;
+  text-decoration: line-through;
+}

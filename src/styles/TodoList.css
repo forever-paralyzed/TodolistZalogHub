@@ -1,0 +1,16 @@
+.todo-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-list__empty {
+  margin: 8px 0 0;
+  padding: 20px;
+  border: 1px dashed #dce3dc;
+  border-radius: 5px;
+  color: #738078;
+  text-align: center;
+}
